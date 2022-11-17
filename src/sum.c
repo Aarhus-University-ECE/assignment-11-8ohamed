@@ -29,20 +29,13 @@ int sumtail (int n, int total)
 
 /* Sum integers 1 to n */
 int sumwhile (int n)
+
 {
-  
-    assert (n >= 1);
+int total;
+ while (n!=0){
+ total =+ n;
+n--;
+ }
+ return total;
 
-  if (n > 1){
-
-  for (int i = 0;i>=n;i++)
-{  
-    return i + sum (n - 1);
 }
-}
-
-  else
-
-    return 1;
-}
-
