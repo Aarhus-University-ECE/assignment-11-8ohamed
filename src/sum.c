@@ -29,6 +29,7 @@ int sumtail (int n, int total)
 
 /* Sum integers 1 to n */
 int sumwhile (int n)
+
 {
 int total=0;
  while (n!=0){
@@ -38,4 +39,3 @@ n--;
  return total;
 
 }
-

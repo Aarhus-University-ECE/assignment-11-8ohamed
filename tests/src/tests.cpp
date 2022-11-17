@@ -27,20 +27,21 @@ TEST_CASE("sumwhile")
     // Add the tests for excercise 3 "sumwhile" function here. Use "REQUIRE()" statement to check. 
     REQUIRE(sumwhile(10)==55);   // sumwhile(13) must be 91
     REQUIRE(sumwhile(13)==91);   // sumwhile(13) must be 91
-    REQUIRE(sumwhile(21)==231); // sumwhile(21) must be 231
+    REQUIRE(sumwhile(33)==1089); // sumwhile(21) must be 231
 
 }
 
 TEST_CASE("sumn")
 {
-    REQUIRE(sumn(1)==1); // sum(1) must be 1
-    REQUIRE(sumn(3)==9); //sum(3) = 1+3+5 = 9
+    REQUIRE(sumn(1)==1);       // sum(1) must be 1
+    REQUIRE(sumn(3)==9);      //sum(3) = 1+3+5 = 9
     REQUIRE(sumn(33)==1089); //sum(33) = 1+3+5+...+65 = 1089
 }
 
 TEST_CASE("fib")
 {
    // Add the tests for excercise 4 "fib" function here. Use "REQUIRE()" statement to check. 
+<<<<<<< HEAD
     REQUIRE(fib(1) == 1);
     REQUIRE(fib(2)==1);
     REQUIRE(fib(3)==2);
@@ -48,6 +49,11 @@ TEST_CASE("fib")
     REQUIRE(fib(5)==5);
     REQUIRE(fib(14)==377);
 
+=======
+    REQUIRE(1==1);
+    REQUIRE(2==2);
+    REQUIRE(14==377);
+>>>>>>> refs/remotes/origin/main
 
 
 }
