@@ -26,7 +26,7 @@ TEST_CASE("sumwhile")
 {
     // Add the tests for excercise 3 "sumwhile" function here. Use "REQUIRE()" statement to check. 
     
-    REQUIRE(sumwhile(5)==15);     // sumwhile(5) must be 15
+
     REQUIRE(sumwhile(13)==91);   // sumwhile(13) must be 91
     REQUIRE(sumwhile(21)==231); // sumwhile(21) must be 231
 
@@ -43,7 +43,6 @@ TEST_CASE("fib")
 {
    // Add the tests for excercise 4 "fib" function here. Use "REQUIRE()" statement to check. 
     REQUIRE(1==1);
-    REQUIRE(2==1);
     REQUIRE(3==2);
     REQUIRE(15==610);
 
