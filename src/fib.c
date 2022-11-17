@@ -12,12 +12,13 @@ int fib (int n, int p)
 /* pre-condition */
 assert (n >= 1);
 /* post-condition */
-    if(n == 1)
-        return pp;
-
+    if(n == 1){
+        return p;
+    }
+    {
     else
         return fib(n-1,pp,p+pp);
 }
-
+return 0; }
 
 
