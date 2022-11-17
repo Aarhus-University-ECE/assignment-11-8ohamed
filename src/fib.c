@@ -16,7 +16,7 @@ assert (n >= 1);
         return p;
 
     else
-        return fib(n-1,p+pp,p);
+        return fib(n-1,pp,p+pp);
 }
 
 
