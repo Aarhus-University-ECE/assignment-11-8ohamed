@@ -7,7 +7,7 @@
 #include <stdio.h>		/* printf */
 
 /* Fibonacci function definition */
-int fib (int n, int p)
+int fib (int n, int p, int pp)
 {
 /* pre-condition */
 assert (n >= 1);
