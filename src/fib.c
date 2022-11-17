@@ -6,20 +6,27 @@
 #include <assert.h>		/* assert */
 #include <stdio.h>		/* printf */
 
+
+// fib 1 = 1
+// fib 2 = 1
+// fib 3 = 2
+// fib 4 = 3
+// fib 5 = 5
+
 /* Fibonacci function definition */
-int fib (int n, int p)
+int fib_tail (int n, int p,int pp)
 {
 /* pre-condition */
 assert (n >= 1);
 /* post-condition */
     if(n == 1)
-        return 1;
-
-    else if(n == 2)
-        return 1;
+        return p;
 
     else
-        p = p + fib (n-1,p);
-        return fib(n-1,p);
+        return fib_tail(n-1,pp+p,p);
 }
 
+
+int fib(int n) {
+    return fib_tail(n, 1, 0);
+}

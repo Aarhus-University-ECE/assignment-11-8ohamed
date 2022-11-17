@@ -20,30 +20,22 @@ int sumtail (int n, int total)
 {
     assert (n >= 1);
 
-  if (n > 1){
-  total = total + n;
-    return sum (n - 1);
+  if (n == 1){
+  return total + n;
   }
   else
-    return 1;
+    return sumtail (n-1,n+total);
 }
 
 /* Sum integers 1 to n */
 int sumwhile (int n)
 {
-  
-    assert (n >= 1);
+int total=0;
+ while (n!=0){
+ total =total + n;
+n--;
+ }
+ return total;
 
-  if (n > 1){
-
-  for (int i = 0;i>=n;i++)
-{  
-    return i + sum (n - 1);
-}
-}
-
-  else
-
-    return 1;
 }
 
