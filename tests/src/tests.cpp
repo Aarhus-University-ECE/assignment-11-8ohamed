@@ -26,16 +26,16 @@ TEST_CASE("sumwhile")
 {
     // Add the tests for excercise 3 "sumwhile" function here. Use "REQUIRE()" statement to check. 
     
-
+    REQUIRE(sumwhile(1)==1);      // sumwhile(1) must be 1
     REQUIRE(sumwhile(13)==91);   // sumwhile(13) must be 91
-    REQUIRE(sumwhile(21)==231); // sumwhile(21) must be 231
+    REQUIRE(sumwhile(33)==1089); // sumwhile(21) must be 231
 
 }
 
 TEST_CASE("sumn")
 {
-    REQUIRE(sumn(1)==1); // sum(1) must be 1
-    REQUIRE(sumn(3)==9); //sum(3) = 1+3+5 = 9
+    REQUIRE(sumn(1)==1);       // sum(1) must be 1
+    REQUIRE(sumn(3)==9);      //sum(3) = 1+3+5 = 9
     REQUIRE(sumn(33)==1089); //sum(33) = 1+3+5+...+65 = 1089
 }
 
