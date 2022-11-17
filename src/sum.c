@@ -33,7 +33,7 @@ int sumwhile (int n)
 {
 int total;
  while (n!=0){
- total =+ n;
+ total = total+ n;
 n--;
  }
  return total;
