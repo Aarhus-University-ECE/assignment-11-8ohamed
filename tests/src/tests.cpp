@@ -43,8 +43,8 @@ TEST_CASE("fib")
 {
    // Add the tests for excercise 4 "fib" function here. Use "REQUIRE()" statement to check. 
     REQUIRE(1==1);
-    REQUIRE(3==2);
-    REQUIRE(15==610);
+    REQUIRE(2==2);
+    REQUIRE(14==610);
 
 
 }
