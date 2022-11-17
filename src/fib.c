@@ -7,7 +7,19 @@
 #include <stdio.h>		/* printf */
 
 /* Fibonacci function definition */
-int fib (int n, int p, int pp)
+int fib (int n, int p)
 {
-    return 0;
+/* pre-condition */
+assert (n >= 1);
+/* post-condition */
+    if(n == 1)
+        return 1;
+
+    else if(n == 2)
+        return 1;
+
+    else
+        p = p + fib (n-1,p);
+        return fib(n-1,p);
 }
+
