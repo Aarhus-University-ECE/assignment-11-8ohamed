@@ -41,7 +41,6 @@ TEST_CASE("sumn")
 TEST_CASE("fib")
 {
    // Add the tests for excercise 4 "fib" function here. Use "REQUIRE()" statement to check. 
-<<<<<<< HEAD
     REQUIRE(fib(1) == 1);
     REQUIRE(fib(2)==1);
     REQUIRE(fib(3)==2);
@@ -49,11 +48,6 @@ TEST_CASE("fib")
     REQUIRE(fib(5)==5);
     REQUIRE(fib(14)==377);
 
-=======
-    REQUIRE(1==1);
-    REQUIRE(2==2);
-    REQUIRE(14==377);
->>>>>>> refs/remotes/origin/main
 
 
 }
